@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyRemedy">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#E1EFEF">
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="33dp"
+            android:layout_toLeftOf="@id/editTextDiseaseName"
+            android:src="@drawable/back" />
+
+        <EditText
+            android:id="@+id/editTextDiseaseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter disease name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextRemedy"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter remedy here"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:minHeight="60dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/enter"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30sp"
+            android:layout_toRightOf="@id/editTextRemedy"
+            android:src="@drawable/ic_baseline_playlist_add_check_24" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HomeRemedy</string>
+        <string-array name="android_versions">
+            <item>common cold</item>
+            <item>cough and sore throat</item>
+            <item>Acne and pimple</item>
+            <item>stomach ache</item>
+            <item>acidity</item>
+            <item>common fever</item>
+            <item>gum swelling</item>
+            <item>fire burns</item>
+            <item>headache</item>
+            <item>bad breath</item>
+            <item>kidney stone</item>
+            <item>constipation</item>
+            <item>menstrual cramps</item>
+            <item>skin rashes</item>
+            <item>low blood pressure</item>
+            <item>migraine</item>
+            <item>dry cough</item>
+
+
+        </string-array>
+</resources>

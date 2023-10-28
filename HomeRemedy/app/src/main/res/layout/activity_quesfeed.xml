@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quesfeed">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@drawable/editviewbackground"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@drawable/editviewbackground"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="371dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/editTextTextPersonName3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/editviewbackground"
+        android:ems="10"
+        android:hint="Message"
+        android:inputType="textMultiLine"
+        android:textAlignment="textStart" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName4"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="100dp"
+        android:text="Send " />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="30dp"
+        android:enabled="false"
+        android:text="View send details" />
+</RelativeLayout>
